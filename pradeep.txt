@@ -1,0 +1,8 @@
+clc;
+r=input("enter radius\n");
+d=input("enter distance");
+rad=r*0.7788;
+l=2*10^(-7)*log(d/r);
+c=(2*pi*8.85*10(^-12))/log(d/r);
+fprintf("inductor of wire  = %d\n",l)
+fprintf("conductor of wire  =%d\n",c)
